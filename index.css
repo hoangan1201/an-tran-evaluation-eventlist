@@ -7,25 +7,23 @@
 .table {
     width: 80%;
     margin: 20px auto;
-    border-collapse: collapse;
-    background-color: #f9f5e5; /* Light beige background */
+    background-color: #f9f5e5; 
     border-radius: 10px;
-    overflow: hidden;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Table Header Styling */
+
 .table-head th {
-    background-color: #544e3d; /* Dark brown header */
+    background-color: #544e3d; 
     color: white;
     padding: 12px;
     text-align: left;
     font-size: 18px;
 }
 
-/* Table Row Styling */
+
 .table-row {
-    background-color: #ece4c8; /* Light tan row background */
+    background-color: #ece4c8; 
 }
 
 .table-row th {

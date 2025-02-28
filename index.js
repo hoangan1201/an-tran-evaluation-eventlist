@@ -161,7 +161,7 @@ class Model {
       }
       const newEvent = { eventName, startDate, endDate };
       const addedEvent = await eventAPI.addNewEvent(newEvent);
-      newEvent.id = addedEvent.id; // API usually returns an ID
+      newEvent.id = addedEvent.id; 
   
       this.model.addEvent(newEvent);
       this.view.removeInputRow();
