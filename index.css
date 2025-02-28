@@ -4,6 +4,14 @@
     align-items: center;
 }
 
+.new-evn-button{
+    background-color: #008cba;
+    color: white;
+    border: 0px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
 .table {
     width: 80%;
     margin: 20px auto;
@@ -14,8 +22,8 @@
 
 
 .table-head th {
-    background-color: #544e3d; 
-    color: white;
+    background-color: white; 
+    color: black;
     padding: 12px;
     text-align: left;
     font-size: 18px;
@@ -23,7 +31,7 @@
 
 
 .table-row {
-    background-color: #ece4c8; 
+    background-color: #e6e2d3; 
 }
 
 .table-row th {
